@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AdventOfCode2022": {
+      "commandName": "Project",
+      "nativeDebugging": true,
+      "hotReloadEnabled": false,
+      "sqlDebugging": false
+    }
+  }
+}
