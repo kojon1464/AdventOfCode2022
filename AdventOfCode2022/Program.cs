@@ -2,6 +2,7 @@
 using AdventOfCode2022.Day2;
 using AdventOfCode2022.Day3;
 using AdventOfCode2022.Day4;
+using AdventOfCode2022.Day5;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace AdventOfCode2022
@@ -13,7 +14,8 @@ namespace AdventOfCode2022
             //SolveDay1();
             //SolveDay2();
             //SolveDay3();
-            SolveDay4();
+            //SolveDay4();
+            SolveDay5();
         }
 
         public static void SolveDay1()
@@ -38,6 +40,12 @@ namespace AdventOfCode2022
         {
             Day4Solver.SolverTask1();
             Day4Solver.SolverTask2();
+        }
+
+        public static void SolveDay5()
+        {
+            Day5Solver.SolveTask1();
+            Day5Solver.SolveTask2();
         }
     }
 }
