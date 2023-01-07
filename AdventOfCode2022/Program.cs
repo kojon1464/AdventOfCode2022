@@ -1,6 +1,7 @@
 ﻿using AdventOfCode2022.Day1;
 using AdventOfCode2022.Day10;
 using AdventOfCode2022.Day11;
+using AdventOfCode2022.Day12;
 using AdventOfCode2022.Day2;
 using AdventOfCode2022.Day3;
 using AdventOfCode2022.Day4;
@@ -26,7 +27,8 @@ namespace AdventOfCode2022
             //SolveDay8();
             //SolveDay9();
             //SolveDay10();
-            SolveDay11();
+            //SolveDay11();
+            SolveDay12();
         }
 
         public static void SolveDay1()
@@ -92,6 +94,12 @@ namespace AdventOfCode2022
         {
             Day11Solver.SolveTask1();
             Day11Solver.SolveTask2();
+        }
+
+        public static void SolveDay12()
+        {
+            Day12Solver.SolveTask1();
+            Day12Solver.SolveTask2();
         }
     }
 }
